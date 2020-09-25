@@ -1,4 +1,4 @@
-class Particals {
+class Partical {
     constructor(x, y, r) {
         var options = {
           isStatic:false,

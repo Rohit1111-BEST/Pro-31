@@ -1,4 +1,6 @@
 var particals = []
+var j =0; j < particals.length; j++
+{ particals[j].display(); }
 var plinko = []
 var divisions = []
 
