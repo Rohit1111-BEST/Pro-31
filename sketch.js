@@ -8,7 +8,7 @@ function setup() {
   createCanvas(480,800);
   createSprite(400, 200, 50, 50);
 
-  for(var k =0; k <= widht; k + 80){
+  for(var k =0; k <= width; k + 80){
     divisions.push(new Divisions(k, height-divisionHeight/2,10,divisionHeight));
   }
     for (var j =40; j <=width; j=j=50)
