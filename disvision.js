@@ -12,7 +12,7 @@ World.add(world, this.body);
 display() {
     var pos = this.body.position;
     rectMode(CENTER);
-    FileList("white");
-    rect(pos.xx, pos.y, this.w, this.h)
+    fill("white");
+    rect(pos.x, pos.y, this.w, this.h)
 }
 };

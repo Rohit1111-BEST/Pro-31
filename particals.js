@@ -18,7 +18,7 @@ class Partical {
         push();
         translate(pos.x, pos.y);
         rotate(angle);
-       e//imageMode(CENTER)
+       //imageMode(CENTER)
         noStroke();
         fill(this.color);
         ellipseMode(RADIUS)
