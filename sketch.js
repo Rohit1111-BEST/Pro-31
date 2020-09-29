@@ -17,6 +17,18 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
+  if(frameCount%60===0){
+    particals.push(new Partical(random(width/2-10, width/2+10),10,10));
+  }
+  
+  for (var j =0; j < particals.length; j++){
+  
+    particals[j].display();
+  }
+
+
+
+ 
   
 }
 
@@ -26,16 +38,6 @@ function setup() {
 function draw() {
 background(255,255,255);  
 Engine.update(engine)
-
-
-if(frameCount%60===0){
-  particals.push(new Partical(random(width/2-10, width/2+10),10,10));
-}
-
-for (var j =0; j < particals.length; j++){
-
-  particals[j].display();
-}
 
 for (var j =0; j < particals.length; j++)
 { particals[j].display(); }
@@ -61,5 +63,12 @@ for (var j =0; j < plinko.length; j++){
 
 plinko[j].display();
 }
+
+
+
+
+
+
+
 
 }
